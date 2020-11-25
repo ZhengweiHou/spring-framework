@@ -527,7 +527,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 				registerBeanPostProcessors(beanFactory);
 
 				// Initialize message source for this context.
-				initMessageSource();
+				initMessageSource();	// 国际化
 
 				// Initialize event multicaster for this context.
 				initApplicationEventMulticaster();
